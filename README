@@ -12,6 +12,7 @@ It currently connects to 0x1281 (iPhone, iPhone 3G, iPod touch, iPod touch 2G: R
 	./iRecovery -a			enables auto-boot and reboots the device (exit recovery loop).
 	./iRecovery -s 			starts a shell.
 	./iRecovery -r 			usb reset.
+	./iRecovery -f <file>		send a file.
 	./iRecovery -u <file>		uploads a file.
 	./iRecovery -c "command"	send a single command.
 	./iRecovery -b <file>		runs batch commands from a file(one per line).
@@ -25,6 +26,7 @@ It currently connects to 0x1281 (iPhone, iPhone 3G, iPod touch, iPod touch 2G: R
 
 	/auto-boot			enables auto-boot and reboots the device (exit recovery loop).
 	/exit				exit the recovery console.
+	/send	<file>			send a file to the device.
 	/upload	<file>			upload a file to the device.
 	/exploit <file>			upload a file then execute a usb exploit.
 	/batch	<file>			execute commands from a batch file.
